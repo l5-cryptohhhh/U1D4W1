@@ -151,11 +151,19 @@ footer p{
     padding-top: 70px;
 }
 
-#project h3 span {
-    font-size: 40px;
-    color: red;
-    display: inline;
-    align-items: center;
+
+
+
+#project h3::after {
+    content: "NEW";
+    display: inline-block;
+    padding:2px 8px;
+    margin-right: 12px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    margin-left: 12px;
 }
 
 
