@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="prima esercitazione corso epicode">
+    <meta name="keywords" content="Primo portfolio personale">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <strong>
+                <h1>Manuel Nunziata</h1>
+            </strong>
+            <h3><b>Studente Full-Stack</b> - corso epicode 2026 </h3>
+            <nav>
+                <ul>
+                    <li><a href="#chi-sono">Chi sono</a></li>
+                    <li><a href="#competenze">Competenze</a></li>
+                    <li><a href="#esperienze">Esperienze</a></li>
+                    <li><a href="#progetti">Progetti</a></li>
+                    <li><a href="#contatti">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <strong>
+                <h2 id="chi-sono">Chi sono</h2>
+            </strong>
+            <figure>
+                <img src="https://editorial.uefa.com/resources/027b-16a6e8afa2a8-7441ca4b9ac5-1000/cristiano_ronaldo_of_portugal_celebrates_after_scoring_a.jpeg"
+                    width="200px" height="200px">
+                <aside>
+                    <h3>Lui è il mio calciatore preferito e fonte di aspirazione da quando ero bambino</h3>
+                </aside>
+                <alt="Cristiano Ronaldo">
+                    </alt>
+                    <figcaption>Cristiano Ronaldo</figcaption>
+
+            </figure>
+            <p>Mi chiamo Manuel Nunziata e ho appena iniziato a programmare. Studio sviluppo web con <b>Epicode</b> e
+                pgni
+                giorno aggiungo qualcosa di nuovo su questa pagina. Mi piace lavorare in gruppo e leggere documentazione
+                tecnica capondo come funzionano le cose.
+            </p>
+            <p>Vivo a Latina. Ho una formazione in marketing e sto approdando ora in questo mondo</p>
+        </section>
+        <section>
+            <strong>
+                <h2>Competenze</h2>
+            </strong>
+            <p>Le tecnologie che vedo durante le prime settimane di corso</p>
+            <ul class="comp">
+                <li>HTML = struttura delle pagine</li>
+                <li>CSS = stile e impaginazione</li>
+                <li>Git e Github = versionamento del codice</li>
+                <li>visual studio code = editor di lavoro</li>
+            </ul>
+        </section>
+        <section>
+            <strong>
+                <h2>Esperienze</h2>
+            </strong>
+            <p>Esperienze lavorative e Formative </p>
+            <table border="1">
+                <caption>Elenco esperienze</caption>
+                <thead>
+                    <tr>
+                        <th>Anno</th>
+                        <th>Ruolo</th>
+                        <th>Luogo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2025</td>
+                        <td>Corriere</td>
+                        <td>Amazon</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>Commerciante</td>
+                        <td>Phoenix</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>Diploma in marketing</td>
+                        <td>Centro studi Atena</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <strong>
+                <h2>Progetti</h2>
+            </strong>
+            <p>I lavori fatti durante queste settimane di corso</p>
+        </section>
+        <section id="project">
+            <strong>
+                <h3>Pagina Ricetta</h3>
+            </strong>
+            <p>Una pagina con titolo, ingredienti e procedura. Esercizio di markup semantico applicato a un contenuto
+                reale
+            </p>
+            <a href="https://github.com/l5-cryptohhhh/index.html/blob/main/index.html2.html">VEDI SU GITHUB</a>
+        </section>
+        <section>
+            <strong>
+                <h3>Card di Presentazione</h3>
+            </strong>
+            <p>Un biglietto digitale con nome, cognome, link ai social e ruolo. Esercizio di sintesi sulla struttra
+                HTML.
+            </p>
+            <a href="https://github.com/l5-cryptohhhh/index.html/blob/main/index.html2.html">VEDI SU GITHUB</a>
+        </section>
+        <section>
+            <strong>
+                <h2 id="contatti">Contatti</h2>
+            </strong>
+            <p>Sono presente su queste piattaforme professionali in cui puoi trovare i miei progetti e contattarmi</p>
+            <p>Profilo Github: <a href="https://github.com/l5-cryptohhhh" target="_blank">github.com/l5-cryptohhhh</a>
+            </p>
+            <p>Profilo linkedin: <a href="https://www.linkedin.com/in/manuel-nunziata-800494372/"
+                    target="_blank">linkedin.com/manuel-nunziata</a></p>
+        </section>
+    </main>
+    <form method="post" action="grazie.html">
+        <hr>
+        <p>Compila il form. Riceverai risposta in 24 ore</p>
+        <label for="name">Nome Completo</label> <br><br>
+        <input type="text" id="name" name="name" placeholder="inserisci il tuo nome completo">
+        <br><br>
+        <label for="email">Email</label> <br><br>
+        <input type="email" id="email" name="email" placeholder="inserisci il tuo indirizzo email">
+        <br><br>
+        <label for="frequency">Frequenza</label><br><br>
+        <select id="frequency">
+            <h4>Motivo del contatto</h4> <br><br>
+            <option value="weekly">Proposta di lavoro</option>
+            <option value="monthly">Richiesta informazioni</option>
+            <option value="yearly">Altro</option>
+        </select>
+        <br><br>
+        <label for="date">Inserisci la data di nascita</label> <br><br>
+        <input type="date" id="date" name="date">
+        <br><br>
+        <label for="message">inviaci un messaggio</label> <br><br>
+        <textarea id="message" name="message" placeholder="inserisci il tuo messaggio" cols="30"></textarea>
+        <br><br>
+        <label for="checkbox">Accetto di essere ricontattato!</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <br><br>
+        <button type="submit">Invia!</button><br>
+        <hr>
+    </form>
+    <footer> &copy; 2026 Manuel Nunziata</footer>
