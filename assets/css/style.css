@@ -1,0 +1,111 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+
+header {
+    background-image: url('https://images.pexels.com/photos/12024196/pexels-photo-12024196.jpeg?_gl=1*1nq70l2*_ga*MTAzNTI1Njk5Ni4xNzc4MDYwNzI0*_ga_8JE65Q40S6*czE3NzgwNzE0MzIkbzIkZzEkdDE3NzgwNzE0NjEkajMxJGwwJGgw');
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header h1{
+    color: white;
+    font-size: 3em;
+}
+
+header h3{
+    color: white;
+    font-size: 1.5em;
+}
+
+
+nav {
+    display: inline;
+}
+
+
+nav a:hover {
+    color: red;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+}
+
+main{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+main section {
+    padding: 32px;
+    margin-bottom: 24px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+main section h2::before {
+    content:"- ";
+    color: gold;
+}
+
+.image img {
+    width: 40%;
+    border-radius: 50%
+}
+
+.image img:first-child {
+    float: left;
+}
+
+form {
+    background-color: beige;
+}
+
+footer {
+    background-color: #102D4D;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: #102D4D;
+    color: white;
+    border: none;
+}
+
+.comp li:nth-child(odd) {
+    background-color: #0246902b;
+}   
+
+.comp li:first-child {
+    font-weight: bold;
+}
+
+#project {
+    background-color: rgb(241, 230, 8, 0.35);
+    background-size: auto;
+}
+
+
